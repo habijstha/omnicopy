@@ -1,5 +1,5 @@
 from datetime import datetime
-from fastapi import FastAPI, Request, Body
+from fastapi import FastAPI, Request, Body, HTTPException
 from typing import Any
 import random
 
@@ -51,3 +51,14 @@ async def create_campaign(request: dict[str, Any] = Body(...)):
     }
     data.append(new_campaign)
     return {"Campaign": new_campaign}
+
+@app.put("/campaigns/{campaign_id}")
+async def update_campaign(campaign_id: int, request: dict[str, Any] = Body(...)):
+    campaign = next((item for item in data if item["campaign_id"] == campaign_id), None)
+    if not campaign:
+        raise HTTPException(status_code=404, detail="Campaign not found")
+    
+    # Don't allow updating campaign_id
+    update_data = {k: v for k, v in request.items() if k != "campaign_id"}
+    campaign.update(update_data)
+    return {"Campaign": campaign}
