@@ -62,3 +62,11 @@ async def update_campaign(campaign_id: int, request: dict[str, Any] = Body(...))
     update_data = {k: v for k, v in request.items() if k != "campaign_id"}
     campaign.update(update_data)
     return {"Campaign": campaign}
+
+@app.delete("/campaigns/{campaign_id}")
+async def delete_campaign(campaign_id: int):
+    campaign = next((item for item in data if item["campaign_id"] == campaign_id), None)
+    if not campaign:
+        raise HTTPException(status_code=404, detail="Campaign not found")
+    data.remove(campaign)
+    return {"message": "Campaign deleted successfully"}
